@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SpeedBoost
+  - SpeedSlow
+  - Freeze
+  - respawn
+  - checkpoint
+  - deathzone
+  - Player2
   layers:
   - Default
   - TransparentFX
