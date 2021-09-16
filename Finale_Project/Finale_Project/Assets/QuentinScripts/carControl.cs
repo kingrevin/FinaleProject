@@ -91,6 +91,7 @@ public class carControl : MonoBehaviour
     public void LoadCheckPoint()
     {
         transform.position = checkPoint;
+        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, 0, transform.rotation.w);
     }
 
     private void OnTriggerEnter(Collider other)
