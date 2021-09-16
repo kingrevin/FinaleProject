@@ -7,11 +7,12 @@ public class CheckpointManagement : MonoBehaviour
 {
     //What Checkpoint AM I? Checks to see what checkpoint this is.
     public int checkpointNumber = 0;
-    public Component Trigger;
+
 
     //Keeps PLayer 1 and 2 as reference. 
     public GameObject PlayerOne;
     public GameObject PlayerTwo;
+
 
 
 
