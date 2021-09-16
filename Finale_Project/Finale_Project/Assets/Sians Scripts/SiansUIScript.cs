@@ -6,13 +6,13 @@ using TMPro;
 public class SiansUIScript : MonoBehaviour
 {
   
-    public float Timer;
-    public GameObject TimerText;
+    
     public GameObject GameScreen;
     public GameObject FinalScoreScreen;
-    public GameObject FinalTimeText;
+   
     public GameObject WinnerText;
     public LapChecker LapScript;
+    public float Lap1Timer;
 
 
 
@@ -26,10 +26,7 @@ public class SiansUIScript : MonoBehaviour
 
     private void Update()
     {
-        Timer += Time.deltaTime;
         
-        TimerText.GetComponent<TextMeshProUGUI>().text = "Time: " + Timer.ToString();
-        FinalTimeText.GetComponent<TextMeshProUGUI>().text = "Final Time: " + Timer;
 
         if (LapScript.CurrentLapP1 >= 4)
         {
